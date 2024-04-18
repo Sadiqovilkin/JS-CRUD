@@ -1,0 +1,55 @@
+#renderCard .card {
+  min-height: 500px;
+  padding-bottom: 15px;
+}
+#renderCard .card .card-img img {
+  width: 100%;
+  height: 250px;
+}
+#renderCard .card .card-body {
+  position: relative;
+}
+#renderCard .card .card-body #age {
+  position: absolute;
+  right: 20px;
+  top: -40%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: greenyellow;
+  display: block;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#detailCard .card-img {
+  position: relative;
+}
+#detailCard .card-img img {
+  width: 100%;
+  height: 500px;
+}
+#detailCard .card-img #age {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: greenyellow;
+  display: block;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#detailCard .card {
+  padding-bottom: 15px;
+}
+#detailCard .card .card-body {
+  position: relative;
+}/*# sourceMappingURL=style.css.map */
