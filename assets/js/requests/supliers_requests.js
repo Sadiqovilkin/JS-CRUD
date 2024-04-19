@@ -1,7 +1,7 @@
 import BASE_URL from "../base_url.js";
 const endpoint = "/movies";
 const tBody = document.getElementById("getData")
-const loader = document.querySelector(".loading");
+// const loader = document.querySelector(".loading");
 //get All Songs - void
 export async function getAllSuppliers(url) {
   let suplier = null;
@@ -14,9 +14,10 @@ export async function getAllSuppliers(url) {
     })
     .catch((err) => {
       error = err;
-    }) .finally(() => {
-      loader.classList.add("d-none");
-    });
+    }) 
+    // .finally(() => {
+    //   loader.classList.add("d-none");
+    // });
   return {
     suplier: suplier,
     error: error,
